@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css"
-    <title>Hexabyte</title>
-</head>
-<body>
-    <sectio class="nav">
-        <h1>HEXABYTE</h1>
-        <h3 class="span loader"><span class="m">Q</span><span class="m">U</span><span class="m">A</span><span class="m">L</span><span class="m">I</span><span class="m">T</span><span class="m">Y</span><span class="m"></span><span class="m">&nbsp;</span><span class="m">C</span><span class="m">O</span><span class="m">N</span><span class="m">T</span><span class="m">E</span><span class="m">N</span><span class="m">T</span><span class="m">&nbsp;</span><span class="m">F</span><span class="m">R</span><span class="m">O</span><span class="m">M</span><span class="m">&nbsp;</span><span class="m">A</span><span class="m">R</span><span class="m">C</span><span class="m">H</span><span class="m">I</span><span class="m">V</span><span class="m">E</span><span class="m">S</span></h3>
-        <div class="nav-container"><a class="nav-tab" href="#tab-svelte">HOME</a><a class="nav-tab" href="#tab-esbuild">ROADMAPS</a><a class="nav-tab" href="#tab-next">COURSES</a><a class="nav-tab" href="#tab-typescript">V-LABS</a><a class="nav-tab" href="#tab-vite">CONTACT</a><span class="nav-tab-slider"></span></div>
-    </sectio>
-    <main class="main">
-        <section class="slider" id="tab-svelte">
-            <h1>HOME</h1>
-            <h2>Basic Intro about out motives.</h2>
-        </section>
-        <section class="slider" id="tab-esbuild">
-            <h1>ROADMAPS</h1>
-            <h2>AI-Based Roadmaps for easy learning.</h2>
-        </section>
-        <section class="slider" id="tab-next">
-            <h1>COURSES</h1>
-            <h2>Quality courses on demand here.</h2>
-        </section>
-        <section class="slider" id="tab-typescript">
-            <h1>VIRTUAL LABS</h1>
-            <h2>Perform in-hand practices with us</h2>
-        </section>
-        <section class="slider" id="tab-vite">
-            <h1>CONTACT</h1>
-            <h2>Got issues, we can resolve for you!</h2>
-        </section>
-    </main><canvas class="background"></canvas>
-<script>
-    
+   
 
 window.onload = function () {
   Particles.init({
@@ -164,7 +129,3 @@ class NavigationPage {
 
 new NavigationPage();
  
-
-</script>
-</body>
-</html>
